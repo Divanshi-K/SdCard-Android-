@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etsometext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Some Text"
+        android:textSize="16dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bnwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Create File"
+        android:background="#DDD9D9"
+        android:textSize="16dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bnrd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Read File"
+        android:background="#DDD9D9"
+        android:textSize="16dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bnclear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Refresh"
+        android:background="#DDD9D9"
+        android:textSize="16dp"/>
+
+
+</LinearLayout>
